@@ -19,7 +19,7 @@ kubectl get nodes                           # Verify control plane node on Docke
 kubectl get all                                 # List all Kubernetes resources\
 kubectl get pods                             # List all pods\
 kubectl logs <pod_name>            # View logs for a specific pod\
-kubectl describe <resource>      # Describe a specific resource\
+kubectl describe <resource>      # Describe a specific resource
 
 3. Containerize the App - Building a simple Node.js app using the Express framework that listens on port 3000.
 Dockerfile: Write a Dockerfile to containerize the app.
@@ -51,11 +51,11 @@ Create the EKS cluster:  eksctl create cluster \
 --nodes-min 1 \
 --nodes-max 3 \
 --managed \
- Use AWS CloudFormation in the AWS Console to monitor the cluster creation process. \
+ Use AWS CloudFormation in the AWS Console to monitor the cluster creation process. 
 
 # 7. Update kubeconfig
 Once the cluster is active, update the Kubernetes configuration: \
-aws eks update-kubeconfig --name demo-cluster --region us-east-1 \
+aws eks update-kubeconfig --name demo-cluster --region us-east-1 
 
 # 8. Deploy the Application \
 Apply the deployment configuration:  kubectl apply -f app-server-deployment.yaml \
