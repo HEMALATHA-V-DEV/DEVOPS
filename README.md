@@ -8,10 +8,10 @@ AWS CLI configured with credentials: AWS Access Key, Secret Access Key, region, 
 # Steps to Deploy
 1. Clone the Repository\
 Clone the application code from GitHub:\
-git clone https://github.com/HEMALATHA-V-DEV/DEVOPS.git \
+git clone https://github.com/HEMALATHA-V-DEV/DEVOPS.git 
 
 2. Verify Kubernetes Configuration\
-Confirm Kubernetes contexts and cluster information:\
+Confirm Kubernetes contexts and cluster information:
 
 kubectl config get-contexts           # Check the current context \
 kubectl cluster-info                        # Get control plane endpoint\
@@ -30,7 +30,7 @@ Build the Docker image: docker image build -t hemalathav20/todo-app:1.0 .\
  Run the container locally to test: docker container run -dp 3002:3000 --name todolist-app hemalathav20/todo-app:1.0 \
  http://localhost:3002/ \
 3002 is the port on your host machine (your computer).\
-3000 is the port inside the container (where the application listens).\
+3000 is the port inside the container (where the application listens).
 
 app inside the container listens on port 3000, and by mapping it to host port 3002, you can access the app from http://localhost:3002 on your computer.
 
