@@ -1,4 +1,3 @@
-# AWS Hands-On: Deploy a Containerized App to EKS using eksctl and kubectl
 # Push Docker Image to AWS ECR using Jenkins Pipeline
 
 ## Prerequisites
