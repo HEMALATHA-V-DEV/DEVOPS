@@ -128,7 +128,6 @@ Container orchestration automates the deployment, scaling, and management of con
 ### Docker Containers
 Docker containers package your application and its dependencies into a standardized unit, ensuring consistency across different environments.
 
-## Steps to Deploy Docker Containers on ECS
 
 **Why Use AWS ECS for Container Orchestration?**
 
